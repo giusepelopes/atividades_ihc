@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_ativ1">Atividade 1</string>
+    <string name="txt_enternum">Enter a Number</string>
+    <string name="txt_sum">SUM</string>
+</resources>
