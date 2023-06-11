@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ativ1"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:background="#2196F3"
+        android:paddingStart="10dp"
+        android:paddingTop="15dp"
+        android:text="@string/txt_ativ3"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFCFC"
+        android:textDirection="inherit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/coordX"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="X "
+        app:layout_constraintTop_toBottomOf="@+id/ativ1"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <EditText
+        android:id="@+id/coordY"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Y "
+        app:layout_constraintStart_toEndOf="@+id/coordX"
+        app:layout_constraintTop_toBottomOf="@+id/ativ1" />
+
+    <EditText
+        android:id="@+id/coordZ"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Z "
+        app:layout_constraintStart_toEndOf="@+id/coordY"
+        app:layout_constraintTop_toBottomOf="@+id/ativ1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
